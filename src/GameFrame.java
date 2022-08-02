@@ -9,6 +9,7 @@ public class GameFrame extends JFrame{
         this.addKeyListener(gamePanel);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setResizable(false);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
 }
